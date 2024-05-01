@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="陳思齊">
+    <meta name="keyword" content="411411167">
+    <title>411411167陳思齊 資訊系統實驗期中作業</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color:#fbb5c1;
+            color: #ffc0cb;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h2 {
+            color: #8e8b91;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        figure {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        figcaption {
+            margin-top: 10px;
+        }
+        aside {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-top: -150px; /* 將aside向上移動 */
+            margin-left: 10px; /* 控制aside與圖片的間距 */
+            border-radius: 5px;
+            width: 300px; /* 調整aside的寬度 */
+            float: right; /* 將aside靠右浮動 */
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        aside li {
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color:#ffc0cb;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        form {
+            width: 60%;
+            margin: 20px auto;
+            background-color: #ffc0cb;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #8a2be2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #800080;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>我的好朋朋-永平Gidle</h2>
+    </header>
+    <nav>
+            <a href="#1">朋友介紹</a>
+            <a href="#2">我們的回憶</a>
+            <a href="#3">關於我和她們</a>
+            <a href="#4">留言板</a>
+        <hr>
+    </nav>
+    <section>
+        <h3 id="1">朋友介紹</h3>
+        <table border="1">
+            <caption>我的bestie</caption>
+            <thead>
+                <tr><th>姓名</th><th>綽號</th><th>生日</th><th>星座</th><th>大學科系</th><th>高中班級</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>陳思齊</td><td>小蘋果</td><td>2004/08/34</td><td>獅子座</td><td>淡江資工</td><td rowspan="5">303</td></tr>
+                <tr><td>張育瑄</td><td>猴猴</td><td>2004/05/18</td><td>金牛座</td><td>國防資管</td></tr>
+                <tr><td>劉斯羽</td><td>kiwi</td><td>2003/11/27</td><td>射手座</td><td>中央物理</td></tr>
+                <tr><td>蔡沐軒</td><td>蔡奶呆</td><td>2003/09/16</td><td>處女座</td><td>淡江水環</td></tr>
+                <tr><td>蕭妤帆</td><td>蕭魚販</td><td>2004/02/19</td><td>水瓶座</td><td>輔大生科</td></tr>
+                <tr><td colspan="6">last update=2024/05/012</td></tr>
+            </tbody>
+        </table>
+        <article>
+            <figure>
+                <figcaption>我們五個</figcaption>
+                <img src="./img/p1.jpg" alt="我們五個" width="500" >
+            </figure>
+            
+            <aside>    
+                <ul>
+                    <li>陳思齊</li>
+                    <li>張育瑄</li>
+                    <li>劉斯羽</li>
+                    <li>蔡沐軒</li>
+                    <li>蕭妤帆</li>
+                </ul>
+            </aside>
+        </article>
+        <br><hr>
+    </section>
+    <h3 id="2">我們的回憶</h3>
+    <figure>
+        <figcaption>2024/04/05第一次全部人到齊去夜唱</figcaption>
+        <img src="./img/178425.jpg" alt="一起去夜唱" width="300">
+    </figure>
+    <figure>
+        <figcaption>2023/02/23跟蔡沐軒第一次去現場看劉斯羽打籃球</figcaption>
+        <video width="400" height="500" controls>
+            <source src="./img/a70c5aaf-af9d-445e-bbe0-c677f4b68e0d.mp4" type="video/mp4">
+        </video>
+    </figure>
+    <figure>
+        <figcaption>2022/07/21我第一次一起跟他們出去玩(這是我最喜歡的一張照片)</figcaption>
+        <img src="./img/178446.jpg" alt="出去玩" width="300">
+    </figure>
+    <figure>
+        <figcaption>2022/02/15畢旅墾丁海邊 希望我們像這張照片一樣永遠開心</figcaption>
+        <img src="./img/178568.jpg" alt="海邊" width="300">
+    </figure>
+    <figure>
+        <figcaption>2022/02/14一起去畢旅</figcaption>
+        <img src="./img/178450.jpg" alt="畢旅" width="300">
+    </figure>
+    <figure>
+        <figcaption>2021/12/30一起吃跨年餐</figcaption>
+        <img src="./img/178449.jpg" alt="跨年" width="300">
+    </figure>
+    <figure>
+        <figcaption>2021/09/16拍畢業照</figcaption>
+        <img src="./img/178460.jpg" alt="畢業照" width="300">
+    </figure>
+    <br><hr>
+    <section>
+        <h3 id="3">關於我和她們</h3>
+        <h4><a href="411411167-active.html">點我去關於我和她們</a></h4>
+        <br><hr>
+    </section>
+
+    <h3 id="4">留言板</h3>
+    <article class="article">
+        <form class="form-container">
+            <label for="join-volleyball">是否想留言?</label><br>
+            <input type="radio" id="yes" name="join-volleyball" value="yes">
+            <label for="yes">是</label><br>
+            <input type="radio" id="no" name="join-volleyball" value="no">
+            <label for="no">否</label><br>
+            
+            <label for="name">姓名:</label><br>
+            <input type="text" id="name" name="name" placeholder="請輸入您的姓名"><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="請輸入您的Email"><br>
+            
+            <label for="gender">性別:</label><br>
+            <select id="gender" name="gender">
+                <option value="male">男性</option>
+                <option value="female">女性</option>
+                <option value="other">其他</option>
+            </select><br>
+            
+            <label for="comments">想對我說的話:</label><br>
+            <textarea id="comments" name="comments" placeholder="請在此輸入您的意見"></textarea><br>
+            
+            <input type="submit" value="提交">
+        </form>
+</body>
+</html>
